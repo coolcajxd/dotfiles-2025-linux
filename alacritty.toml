@@ -1,0 +1,38 @@
+[window]
+opacity = 0.8
+padding = { x = 10, y = 10 }
+
+[font]
+size = 11
+
+[colors.primary]
+background = "#0e1112"   # Dark charcoal, nearly black
+foreground = "#ffffff"   # Crisp white text
+
+[colors.normal]
+black   = "#0e1112"       # Same as background
+red     = "#ff5c57"       # Muted red
+green   = "#44ff99"       # Vibrant mint green
+yellow  = "#ffd866"       # Warm yellow
+blue    = "#5e9bff"       # NixOS blue (light)
+magenta = "#c586c0"       # Soft magenta
+cyan    = "#56d9c9"       # Cool cyan
+white   = "#ffffff"       # Pure white
+
+[colors.bright]
+black   = "#2e3440"       # Dark gray for contrast
+red     = "#ff7b72"
+green   = "#88ffbb"
+yellow  = "#ffe680"
+blue    = "#7da6ff"       # Slightly brighter Nix blue
+magenta = "#d8b0ff"
+cyan    = "#88ffee"
+white   = "#ffffff"
+
+[colors.cursor]
+text   = "#0e1112"
+cursor = "#ffffff"        # NixOS blue
+
+[colors.selection]
+text       = "#0e1112"
+background = "#ffffff"
